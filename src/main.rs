@@ -10,7 +10,7 @@ use reactagent::{
         react::ReactAgent,
         tool::{FunctionSchemaStyle, build_function_schema},
     },
-    error::Result,
+    prelude::Result,
 };
 
 #[derive(Parser, Debug)]

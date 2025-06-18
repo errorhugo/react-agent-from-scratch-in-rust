@@ -1,4 +1,4 @@
-use crate::error::{AgentError, Result};
+use crate::{error::AgentError, prelude::*};
 use std::env;
 
 use async_openai::{

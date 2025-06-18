@@ -1,7 +1,8 @@
 pub mod weather {
     use std::env;
 
-    use crate::error::{AgentError, Result};
+    use crate::error::AgentError;
+    use crate::prelude::*;
     use async_trait::async_trait;
     use colored::Colorize;
     use schemars::JsonSchema;
@@ -134,7 +135,8 @@ pub mod weather {
 pub mod geo {
     use std::env;
 
-    use crate::error::{AgentError, Result};
+    use crate::error::AgentError;
+    use crate::prelude::*;
     use async_trait::async_trait;
     use colored::Colorize;
     use schemars::JsonSchema;

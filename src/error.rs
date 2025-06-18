@@ -1,8 +1,6 @@
 use async_openai::error::OpenAIError;
 use thiserror::Error;
 
-pub type Result<T> = core::result::Result<T, AgentError>;
-
 #[derive(Error, Debug)]
 pub enum AgentError {
     #[error("Generic error: {0}")]

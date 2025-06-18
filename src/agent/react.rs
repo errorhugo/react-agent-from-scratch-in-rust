@@ -1,6 +1,7 @@
 use std::{collections::HashMap, sync::Arc};
 
-use crate::error::{AgentError, Result};
+use crate::error::AgentError;
+use crate::prelude::*;
 use colored::Colorize;
 use serde::Deserialize;
 use serde_json::Value;
